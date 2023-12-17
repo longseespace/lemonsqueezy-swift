@@ -35,7 +35,7 @@ extension SubscriptionInvoice {
         public let subscriptionId: Int
         
         /// The ID of the customer this subscription belongs to.
-        public let customerId: Int
+        public let customerId: Int?
         
         /// The full name of the customer.
         public let userName: String

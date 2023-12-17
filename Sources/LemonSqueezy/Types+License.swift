@@ -108,7 +108,7 @@ public struct DeactivateLicense: Codable {
         public let productName: String
         public let variantId: Int
         public let variantName: String
-        public let customerId: Int
+        public let customerId: Int?
         public let customerName: String
         public let customerEmail: String
     }

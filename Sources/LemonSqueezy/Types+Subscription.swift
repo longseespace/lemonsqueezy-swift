@@ -32,7 +32,7 @@ extension Subscription {
         public let storeId: Int
         
         /// The ID of the customer this subscription belongs to.
-        public let customerId: Int
+        public let customerId: Int?
 
         /// The ID of the order associated with this subscription.
         public let orderId: Int
